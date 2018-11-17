@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="compoundviewexamplexamarin.MainActivity">
+
+    <compoundviewexamplexamarin.views.MyEditText
+        android:id="@+id/testMyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/test_title"
+        app:inputHint="@string/test_hint"
+        />
+
+    <compoundviewexamplexamarin.views.MyEditText
+        android:id="@+id/testPasswordMyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/password"
+        app:inputHint="@string/password_hint"
+        app:inputType="password"
+        app:input="@string/password"
+        />
+
+    <Button
+        android:id="@+id/btnAddError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_error"/>
+
+    <Button
+        android:id="@+id/btnClearError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_error"/>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CompoundViewExampleKotlin</string>
+    <string name="test_title">Title</string>
+    <string name="test_hint">Title hint</string>
+    <string name="add_error">Add error</string>
+    <string name="clear_error">Clear error</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Password hint</string>
+</resources>
